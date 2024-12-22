@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, 
+}
+h1 {
+  color: blue;
+}
+p {
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+      color: green;
+  }
+  p {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+      color: red;
+  }
+  p {
+      font-size: 14px;
+  }
+}
+
+#logo{
+    color: #F9F8F3;
+    font-size: 30px;
+    text-align: center; 
+}
+a{
+    color: beige;
+}
+#button{
+    background-color:beige;
+}
+.navbar{
+    background-color:#c1AA7F;
+    color: #fff;
+    text-align: right;
+    height: 70px;
+    
+}
+.menu{
+    text-align: left;
+    background-color:#393732;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    color: beige;
+    font-size: large;
+    
+}
+a{
+  margin: 10px;
+}
+#footer{
+    background-color:#393732;
+    text-align: center;
+    color:beige;
+    font-size: large;
+
+}
+#cover{
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ width: 1900px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(14, 13, 13);
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#About{
+  background-color:#F9F8F3 ;
+  color: #393732;
+  text-align: center;
+  font-size: large;
+}
+
+.Image-Container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.Image-Container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  animation: fade 12s infinite;
+}
+
+.Image-Container img:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.Image-Container img:nth-child(2) {
+  animation-delay: 3s;
+}
+
+.Image-Container img:nth-child(3) {
+  animation-delay: 6s;
+}
+
+.Image-Container img:nth-child(4) {
+  animation-delay: 9s;
+}
+
+@keyframes fade {
+  0%, 25% {
+    opacity: 1;
+  }
+  33%, 100% {
+    opacity: 0;
+  }
+}
+
+#mission{
+  text-align: center;
+  background-color: #F9F8F3;
+  color: #393732;
+  font-size: large;
+}
+.contact-form {
+  
+  margin: auto;
+   margin-top: 100px;
+   margin-bottom: 100px;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  align-content: center;
+}
+
+.contact-form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color:black;
+  color: beige;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #4cae4c;
+}
+#promise{
+  color: #393732;
+  font-size: large;
+  text-align: center;
+}
+#Featured{
+  color: #393732;
+  font-size: large;
+}
+#Group{
+  color: #393732;
+  background-color: beige;
+  font-size: large;
+  text-align: center;
+}
+#Group h1{
+  color: #393732;
+}
+.about{
+  background-color: beige;
+  color: #393732;
+  font-size: large;
+  text-align: center;
+}
+.offer{
+  text-align: left;
+}
+.menu input{
+text-align: right;
+padding: 5px;
+border-radius: 4px;
+
+}
+.header{
+  background-color:#393732;
+  display: flex;
+  align-items: center;
+}
+.search{
+  text-align: right;
+  margin-left: auto;
+}
+.search input{
+  padding: 5px ;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+.search button{
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: beige;
+  color: #393732;
+  font-weight: bold;
+}

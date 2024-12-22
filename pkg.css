@@ -1,0 +1,292 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1 {
+    color: blue;
+}
+p {
+    font-size: 18px;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+    h1 {
+        color: green;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+    h1 {
+        color: red;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+
+.container {
+    margin-top: 50px;
+   margin: auto;
+display: block;
+flex-direction: column;
+gap: 30px;
+background-color: #fff;
+width: 300px;
+border: 1px solid #ddd;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+transition: box-shadow 0.3s ease-in-out;
+
+}
+.container2 {
+    
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    margin: auto;
+    }
+.card:hover {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-image {
+width: 100%;
+height: auto;
+display: block;
+}
+.card-content {
+padding: 16px;
+}
+.card-title {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+.card-description {
+font-size: 0.9em;
+color: #555;
+margin-bottom: 10px;
+}
+.card-details {
+font-size: 0.9em;
+color: #333;
+margin-bottom: 20px;
+}
+.card-button {
+display: block;
+text-align: center;
+background-color: #000;
+color: #fff;
+padding: 10px 0;
+text-decoration: none;
+font-weight: bold;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+.card-button:hover {
+background-color: #444;
+}   
+    .card2:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .card-image2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+    .card-content2 {
+    padding: 16px;
+    }
+    .card-title2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    }
+    .card-description2 {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+    }
+    .card-details2 {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 20px;
+    }
+    .card-button2 {
+    display: block;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    }
+    .card-button2:hover {
+    background-color: #444;
+    }
+    .booking-form{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+        background: #fff;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        align-content: center;
+    }
+    .form-group input
+    {
+        width: 100%;
+     border: 1px solid;
+     border-radius: 2px;
+    }
+    .form-group  input[type="submit"] {
+      background-color: #393732;
+      color: beige;
+      font-size: 16px;
+      width: 100%;
+  padding: 10px;
+  background-color:black;
+  color: beige;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+
+    }
+    .form-group {
+    margin-bottom: 15px;
+    }
+    .form-group label{
+        margin-bottom: 5px;
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #666;
+        
+    }
+    .container3 {
+        display: block;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #fff;
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: box-shadow 0.3s ease-in-out;
+        margin: auto;
+        margin-bottom: 50px;
+        }
+        .card3:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+            .card-image3 {
+            width: 100%;
+            height: auto;
+            display: block;
+            }
+            .card-content3 {
+            padding: 16px;
+            }
+            .card-title3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            }
+            .card-description3 {
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 10px;
+            }
+            .card-details3 {
+            font-size: 0.9em;
+            color: #333;
+            margin-bottom: 20px;
+            }
+            .card-button3 {
+            display: block;
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+            }
+            .card-button3:hover {
+            background-color: #444;
+            }
+            #footer{
+                background-color:#393732;
+                text-align: center;
+                color:beige;
+                font-size: large;
+            
+            }
+            .navbar{
+                background-color:#c1AA7F;
+                color: #fff;
+                text-align: right;
+                height: 70px;
+                
+            }
+            .menu{
+                text-align: left;
+                background-color:#393732;
+                padding: 0;
+                margin: 0;
+                height: 30px;
+                color: beige;
+                font-size: large;
+            }
+            a{
+              margin: 10px;
+            }
+            #logo{
+                color: #F9F8F3;
+                font-size: 30px;
+                text-align: center; 
+            }
+            a{
+                color: beige;
+                text-decoration: none;
+            }
+            .header{
+                background-color:#393732;
+                display: flex;
+                align-items: center;
+              }
+              .search{
+                text-align: right;
+                margin-left: auto;
+              }
+              .search input{
+                padding: 5px ;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+              
+              }
+              .search button{
+                padding: 5px 10px;
+                border-radius: 4px;
+                background-color: beige;
+                color: #393732;
+                font-weight: bold;
+              }
